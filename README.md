@@ -5,7 +5,7 @@ This tool was developed in ReactJS and PHP <br>
 make sure you ahve your enviroment setup to run ReactJS projects <br>
 ### Donwload or clone the repository <br>
 
-### 'npm install'
+### `npm install`
 Make npm recreate the folder ./node_modules <br>
 
 ### `npm start`
