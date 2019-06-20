@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Sel-Container {
+  position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 1em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 3em auto 0;
+}
+
+.Sel-Container button {
+  display: block;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    width: 4em; 
+    height: 4em;
+    margin: -2em;
+    display: block;  /* questi due campi (sopra e sotto) li inserisco */
+    width: 100%;     /* nell'immagine che metterò nei bottoni */
+}
+
+.deg0 { transform: rotate(410deg) translate(11em) rotate(-410deg);
+        background-color: red;
+            color: white; } /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(260deg) translate(17em) rotate(-260deg);
+          background-color: red;
+            color: white; }
+.deg135 { transform: rotate(198deg) translate(19em) rotate(-198deg);
+            background-color: red;
+            color: white; }
+.deg180 { transform: rotate(325deg) translate(-15em) rotate(-325deg);
+          background-color: red;
+            color: white; }
+.deg225 { transform: rotate(335deg) translate(13em) rotate(-335deg);
+          background-color: red;
+            color: white; }
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
